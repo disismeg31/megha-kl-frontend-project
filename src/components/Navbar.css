@@ -1,0 +1,81 @@
+.header{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-left :5rem;
+ margin-right :5rem;
+ margin-top: 5rem;
+ z-index: 10;
+ position:sticky;
+}
+
+.logo{
+    font-size: 1.875rem /* 30px */;
+    line-height: 2.25rem /* 36px */;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.link{
+    margin-left: 1.25rem /* 20px */;
+    margin-right: 1.25rem /* 20px */;
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+    cursor: pointer;
+}
+ 
+.start-project-btn{
+    border-style: none;
+    width: 153.17px;
+    height: 41.71px;
+    padding: 12.83px 19.25px 12.83px 19.25px;
+    font-size: 12.83px;
+    font-weight: 500;
+    border-radius: 288.75px;
+    background: rgb(64, 52, 235);
+    color:#fff;
+    cursor:pointer;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+/* Responsive styles for medium and smaller screens */
+@media (max-width: 1024px) {
+    .navbar {
+        display: none; /* Hide the navbar links on small screens */
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        background-color: transparent;
+        width: 50%;
+        height:84px;
+        border-radius: 15px;
+        border:1px solid white;
+        text-align: center;
+        padding: 12px;
+        z-index: 1000;
+    }
+
+    /* Show the navbar when the 'active' class is toggled */
+    .navbar.active {
+        display: flex;
+    }
+
+    /* Show the hamburger icon */
+    .hamburger {
+        display: block;
+    }
+
+    /* Hide the 'Start a project' button on small screens */
+    .start-project-btn {
+        display: none;
+    }
+}

@@ -1,0 +1,116 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin-top: 7rem; */
+    margin: 141px auto;
+}
+
+
+.works-part{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    margin:0px 40px;
+}
+ 
+.works-part2{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    margin:0px 40px;
+
+}
+
+.sectiontop{
+    width:622px;
+    height:545px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    width:622px;
+    height:545px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.image-sample{
+    width: 622px;
+    height: 448px;
+    border-radius: 24px;
+    background: rgba(66, 66, 66, 0.2);
+    position: relative; /* Set relative positioning */
+    overflow: hidden; /* Prevents content from spilling out */
+}
+
+
+.new-window {
+    opacity: 0; /* Initially hidden */
+    display: flex;
+    position: absolute; /* Positioned inside the image-sample div */
+    bottom: 210px; /* Adjust position */
+    left: 350px;
+    border-style: none;
+    width: 153.17px;
+    height: 41.71px;
+    padding: 12.83px 19.25px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 288.75px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out; /* Smooth fade transition */
+}
+
+/* Show the span on hover */
+.image-sample:hover .new-window {
+    opacity: 1; /* Make visible on hover */
+}
+
+
+.techstack{
+    display: flex;
+    margin-top: 24px;
+}
+
+.badge{
+    display: flex;
+    height: 26px;
+    border:1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 25px;
+}
+
+.work-name{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: start;
+}
+ 
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:start;
+    width: 500px;
+}
+
+.head-title{
+    font-size: 60px;
+    font-weight: 500;
+    text-align: left;
+    margin:9px;
+}

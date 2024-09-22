@@ -1,0 +1,72 @@
+.home-section{
+    padding: 1rem /* 16px */;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    /* background-image: url('../assets/hero-sec-image.svg'); Set SVG as background */
+    /* background-size: 50%;  
+    background-position: bottom right;  
+    background-repeat: no-repeat; 
+    background-origin: content-box; */
+    position: relative; 
+}
+ 
+.background-image{
+    position:absolute;
+    bottom:-10px;
+    right:160px;
+    z-index: -2;
+    max-width: 700px;
+}
+
+
+
+ 
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.heading-h1{
+    font-size: 3rem /* 48px */;
+    line-height: 103.47px;
+    letter-spacing: -2.78px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 111.04px;
+    /* @media (min-width: 1024px) {
+        .lg\:text-left {
+            text-align: left;
+        }
+    } */
+
+ 
+}
+
+.description-div{
+    position: static;
+    width: 394px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.explore-btn{
+    border-style: none;
+    border-radius: 17px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color:#fff;
+    width: 111.17px;
+    height: 35.29px;
+    margin-top: 36px;
+    padding: 9.63px 19.25px 9.63px 19.25px;
+    font-size: 12.83px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,106 @@
+.services-part{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    width: 1160px;
+    background: rgba(66, 66, 66, 0.2);
+    border-radius: 30px;
+    padding: 60px;
+}
+
+.service-section-1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box; /* Ensures padding and borders are included in width */
+    width: 100%; /* Set full width for the container */
+}
+
+.service-block{
+    /* width: 624px; */
+    width: 50%; /* Adjust width to allow two blocks to fit side by side */
+    box-sizing: border-box; /* Makes sure padding/border are included in width */
+    margin: 10px 0; /* Add margin between blocks if needed */
+}
+
+.service-heading{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    margin:9px;
+}
+
+.our-services{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+}
+ 
+.services{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+    max-width: 1160px;;
+}
+
+.card-container{
+    padding: 36px;
+    width: 370.67px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    border-radius: 20px;
+    margin: 0px 10px;
+    transform-style: background-color,border-color;
+    opacity: 1;
+}
+
+.card-container:hover{
+    background-color: #4034EB;
+    border-color: transparent;
+    transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.service-name{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+}
+
+.explore-arrow{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    border-radius: 360px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    align-content: center;
+    cursor: pointer;
+}
+
+.serv-name-nd-explore{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.service-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align:left;
+    margin: 0;
+}

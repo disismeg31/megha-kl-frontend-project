@@ -1,0 +1,81 @@
+.about-section{
+    /* padding: 4rem 64px; */
+    display:flex;
+    justify-content: start;
+    margin: 10px;
+     /* height:500px; */
+    /* align-items:flex-start; */
+}
+
+.who-are{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:start;
+    width: 500px;
+    height: 306px;
+}
+
+.about-p{
+    margin-top: 0px ;
+}
+
+.about-description {
+    width: 744px;
+    height: 306px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 36;
+    padding: 0px;
+}
+.description-para{
+    text-align: left;
+    margin: 0px 10px;
+    font-weight: 400;
+    letter-spacing: -3%;
+    /* font-size: 17px; */
+    font-size: 36px;
+}
+
+.learn-more-btn{
+    border-style: none;
+    border-radius: 360px;
+    background-color: rgb(64, 52, 235);
+    color:#fff;
+    width: 168px;
+    height: 44px;
+    margin-top: 30px;
+    padding: 12px 24px 12px 24px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.object{
+    width:430px;
+    height:180px;
+    background-color: rgb(40, 32, 155);
+    border-radius: 90px;
+}
+
+.image-banner{
+    background-size:contain;  
+    display: flex; /* Use flexbox to center the image */
+    justify-content: center; /* Center the image horizontally */
+    position:absolute;
+    z-index: -2;
+    left:0;
+    right:0;
+    max-width: 100vw;
+}
+
+.image-banner img {
+    max-width: 100%; /*Ensure the image doesn't exceed the container width*/
+    height: auto; /* Maintain aspect ratio */
+}
