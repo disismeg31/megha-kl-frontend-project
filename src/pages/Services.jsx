@@ -29,7 +29,7 @@ function Services() {
           </div>
           <div className="card-container">
             <div className="serv-name-nd-explore">
-            <p className='service-name'> WEBFLOW <br /> DEVELOPER </p> <span className='explore-arrow'> <MdArrowOutward size={20} /></span> 
+            <p className='service-name'> WEBFLOW<br /> DEVELOPER </p> <span className='explore-arrow'> <MdArrowOutward size={20} /></span> 
             </div>
             <p className="service-description">We provide digital solutions as Website Design, Mobile App Design, Landing Page design, Illustration, Animation, etc that increase company’s values </p>
           </div>

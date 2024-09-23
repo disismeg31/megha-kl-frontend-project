@@ -67,6 +67,7 @@
     .heading-h1 {
         font-size: 64px; /* Reduce heading font size */
         line-height: 80px;
+        margin:35px 0px;
     }
 
     .description-div {
