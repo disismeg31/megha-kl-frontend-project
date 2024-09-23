@@ -8,4 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
--Link [Link](https://disismeg31.github.io/megha-kl-frontend-project/) 
+- Link [Link](https://disismeg31.github.io/megha-kl-frontend-project/) 
