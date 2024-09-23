@@ -4,13 +4,13 @@
   /* flex-direction: column; */
   justify-content: center;
   align-items: center;
+  padding: 0 80px;
 }
 .services-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 10px;
-    width: 1160px;
     background: rgba(66, 66, 66, 0.2);
     border-radius: 30px;
     padding: 60px;
@@ -25,6 +25,8 @@
     flex-wrap: wrap;
     box-sizing: border-box; /* Ensures padding and borders are included in width */
     width: 100%; /* Set full width for the container */
+    padding:0  36px;
+    margin:0 10px;
 }
 
 .service-block{
@@ -53,18 +55,18 @@
     /* flex-direction: column; */
     justify-content: center;
     align-content: center;
-    max-width: 1160px;;
+    max-width: 100%;
 }
 
 .card-container{
     padding: 36px;
-    width: 370.67px;
+    width: 320px;
     display: flex;
     flex-direction: column;
-    border:1px solid white;
+    /* border:1px solid white; */
     border-radius: 20px;
-    margin: 0px 10px;
-    transform-style: background-color,border-color;
+    margin: 0px 60px;
+    /* transform-style: background-color,border-color; */
     opacity: 1;
 }
 

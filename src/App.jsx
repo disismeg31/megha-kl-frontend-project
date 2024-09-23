@@ -6,6 +6,8 @@ import './App.css'
 import Services from "./pages/Services.jsx";
 import Leader from "./pages/Leader.jsx";
 import Testimonials from "./pages/Testimonials.jsx";
+import Contact from "./pages/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
  
@@ -14,13 +16,14 @@ function App() {
     <>
     <div className="App">
       <Navbar/>
-       
        <Home/>
        <About/>
        <Works/>
        <Services/>
        <Leader/>
        <Testimonials/>
+       <Contact/>
+      <Footer/>
     </div>
      
     </>

@@ -33,6 +33,13 @@ h1 {
   font-weight: 500;
 }
 
+textarea,input{
+  font-family: FK Grotesk Neue Trial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 /* button {
   border-radius: 8px;
   border: 1px solid transparent;

@@ -1,0 +1,30 @@
+.footer-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+     margin: auto;
+     padding:20px 80px;
+}
+
+.logo{
+    font-size: 1.875rem /* 30px */;
+    line-height: 2.25rem /* 36px */;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.terms-conditions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.terms-conditions a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}

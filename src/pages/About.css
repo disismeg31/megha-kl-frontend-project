@@ -1,10 +1,8 @@
 .about-section{
-    /* padding: 4rem 64px; */
     display:flex;
     justify-content: start;
     margin: 10px;
-     /* height:500px; */
-    /* align-items:flex-start; */
+    padding: 80px;
 }
 
 .who-are{
