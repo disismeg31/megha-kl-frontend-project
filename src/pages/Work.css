@@ -126,13 +126,14 @@
     .works-part,.works-part2 {
         width: 100%; /* Make them full width */
         margin:0px;
-
     }
 
     .sectiontop, .section1 {
         width: auto; /* Allow sections to adjust width */
         height: auto; /* Adjust height to content */
         margin-top: 20px; /* Add spacing between sections */
+        align-items: center; /* Center align items */
+        justify-content: center; /* Vertically center items */
     }
 
     .image-sample {
