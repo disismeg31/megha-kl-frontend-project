@@ -127,3 +127,30 @@
     background-color: transparent;
     color: #fff;
 }
+
+
+@media (max-width: 1024px) {
+    .contact-part{
+        padding: 40px;
+    }
+    .contact-section-1 {
+        flex-direction: column; /* Change the direction to column */
+        align-items: center; /* Align items in the center */
+    }
+
+    .contact-heading {
+        font-size: 36px; /* Adjust heading size for smaller screens */
+        line-height: 44px;
+        text-align: justify; /* Align heading to the center */
+    }
+
+    .contact-block, .contact-block-1 {
+        width: 100%; /* Make the blocks take full width */
+        max-width: 100%; /* Override max-width to let blocks take full space */
+        margin-bottom: 20px; /* Add spacing between sections */
+    }
+
+    .input-style {
+        max-width: 100%; /* Ensure inputs also take full width */
+    }
+}

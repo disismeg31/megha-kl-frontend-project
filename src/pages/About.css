@@ -77,3 +77,34 @@
     max-width: 100%; /*Ensure the image doesn't exceed the container width*/
     height: auto; /* Maintain aspect ratio */
 }
+
+ 
+@media (max-width: 1024px) {
+    .about-section {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items on smaller screens */
+        padding: 40px;
+    }
+
+    .who-are, .about-description { 
+        width: 100%; 
+        /* Take full width on smaller screens */
+        margin-left: 0; 
+        /* Remove the margin */
+     }
+
+
+    .about-description {
+        width: 100%; /* Take full width on smaller screens */
+    }
+
+    .description-para {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .object {
+        width: 300px;
+        height: 120px;
+    }
+
+}

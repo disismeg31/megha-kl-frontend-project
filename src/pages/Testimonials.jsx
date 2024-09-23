@@ -7,9 +7,6 @@ import { MdArrowForward } from "react-icons/md";
 function Testimonials() {
   return (
     <div className='testimonial-part' id="testimonials">
-      {/* <div className="shadow-image">
-        <img src={shadowimg}alt="shadow image" />
-        </div> */}
       <div className="testimonial-section-1">
         <div className="testimonial-block">
         <p className='our-testimonial'>• Testimonials</p>

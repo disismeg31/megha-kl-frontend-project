@@ -5,11 +5,6 @@
     justify-content: center;
     flex-wrap: wrap;
     height: 70vh;
-    /* background-image: url('../assets/hero-sec-image.svg'); Set SVG as background */
-    /* background-size: 50%;  
-    background-position: bottom right;  
-    background-repeat: no-repeat; 
-    background-origin: content-box; */
     position: relative; 
 }
  
@@ -69,4 +64,25 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .home-section {
+        padding: 40px; /* Reduce padding on medium screens */
+    }
+
+    .heading-h1 {
+        font-size: 64px; /* Reduce heading font size */
+        line-height: 80px;
+    }
+
+    .description-div {
+        width: 300px; /* Reduce width for the description */
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .background-image {
+        max-width: 500px; /* Adjust image size */
+        right: 50px; /* Move image closer to the center */
+    }
 }

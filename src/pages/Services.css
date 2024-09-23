@@ -106,3 +106,47 @@
     text-align:left;
     margin: 0;
 }
+
+@media (max-width: 1024px) {
+    .services-part {
+        padding: 0 40px; /* Adjust padding for smaller screens */
+    }
+
+    .services-container {
+        padding: 40px; /* Adjust padding if needed */
+    }
+
+    .service-section-1 {
+        flex-direction: column; /* Change direction to column */
+        align-items: center; /* Center align items */
+        width: 100%; /* Full width */
+    }
+
+    .service-block {
+        width: 100%; /* Make blocks full width */
+    }
+
+    .services {
+        flex-direction: column; /* Change to column layout */
+        align-items: center; /* Center align items */
+        width: 100%; /* Full width */
+    }
+
+    .card-container {
+        width: 90%; /* Decrease size to 90% */
+        margin: 10px 0; /* Adjust margin for spacing */
+    }
+
+    .service-name {
+        font-size: 24px; /* Decrease font size */
+    }
+
+    .service-description {
+        font-size: 14px; /* Decrease font size */
+    }
+
+    .service-heading {
+        font-size: 24px; /* Decrease size for medium screens */
+        margin: 9px; /* Adjust margin if needed */
+    }
+}

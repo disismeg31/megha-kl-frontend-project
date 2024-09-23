@@ -32,9 +32,34 @@
     margin:9px;
 }
 
-.our-leader{
+.our-leaders{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .leader-part {
+        margin: auto 40px; /* Adjust margin for smaller screens */
+    }
+
+    .leader-section-1 {
+        flex-direction: column; /* Change direction to column */
+        align-items: center; /* Center align items */
+        width: 100%; /* Ensure full width */
+    }
+
+    .leader-block {
+        width: 100%; /* Make blocks full width */
+    }
+
+    .leader-heading {
+        font-size: 24px; /* Decrease size for medium and small screens */
+        margin: 9px; /* Maintain margin */
+    }
+
+    .our-leaders {
+        text-align: center; /* Center align our services text */
+    }
 }

@@ -5,8 +5,8 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    /* margin-top: 7rem; */
     margin: 141px auto;
+    padding: 80px;
 }
 
 
@@ -113,4 +113,56 @@
     font-weight: 500;
     text-align: left;
     margin:9px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column; /* Change the direction of the container */
+        align-items: center; /* Center align items */
+        justify-content: center; /* Vertically center items */
+        padding: 40px;
+    }
+
+    .works-part,.works-part2 {
+        width: 100%; /* Make them full width */
+        margin:0px;
+
+    }
+
+    .sectiontop, .section1 {
+        width: auto; /* Allow sections to adjust width */
+        height: auto; /* Adjust height to content */
+        margin-top: 20px; /* Add spacing between sections */
+    }
+
+    .image-sample {
+        width:70%;
+        height: 300px; /* Decrease height on medium screens */
+    }
+
+    .new-window {
+        bottom: 120px; /* Adjust position based on new height */
+        left: 50%; /* Adjust as needed */
+        transform: translateX(-50%); /* Center it accurately */
+    }
+
+    .techstack {
+        font-size: 14px; /* Decrease font size */
+        margin-top: 12px; /* Adjust margin if needed */
+    }
+
+    .work-name {
+        font-size: 20px; /* Decrease font size */
+        margin-top: 8px; /* Adjust margin if needed */
+    }
+
+    .badge {
+        font-size: 12px; /* Decrease badge font size */
+        padding: 6px 10px; /* Adjust padding for smaller badges */
+    }
+
+    .head-title {
+        font-size: 40px; /* Decrease font size for head-title */
+        margin: 5px; /* Adjust margin if needed */
+    }
 }
