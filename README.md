@@ -35,7 +35,3 @@ To run the app locally in development mode:
 ```
 npm run dev
 ```
- OR 
- 👇🏼
-## Project view  Link
--  [Link](https://disismeg31.github.io/megha-kl-frontend-project/) 
